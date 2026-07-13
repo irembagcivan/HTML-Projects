@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>Üye Kayıt Formu</h2>
+        <form name="kayıt" action="kayit.php" method="post">
+            Ad Soyad:
+            <br>
+            <input type="text" name="adSoyad" id="adSoyad" size="10" maxlength="30" required>        
+            <!-- görülebilir karakter genişliği 10 olsun ve max 30 karakter girilebilsin required: alan boş bırakılamaz -->
+            <br>
+
+            Email:
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+
+            Web Sitesi:
+            <br>
+            <input type="url" name="adres" id="adres">
+            <br>
+
+            Yaşınız:
+            <br>
+            <input type="number" name="yas" id="yas" required>
+            <br>
+            
+            <br>
+            <input type="submit" value="Tamam"> <!-- value: buton adını değiştirir -->
+            <input type="reset" value="Temizle"> <!-- text box içine girilen değeri siler -->                                                          
+        </form>
+    </body>
+</html>
